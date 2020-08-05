@@ -24,7 +24,7 @@
                 }
             },
             error: function(jqXHR, textStatus, errorThrown){
-                alert(errorThrown);
+                alert(`Error has been thrown: ${errorThrown}`);
             }
         });
 
